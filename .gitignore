@@ -1,0 +1,8 @@
+# Private source material used to assemble the public profile README.
+dados_profissionais_nata_rafael_barbosa.md
+
+# Common local or sensitive files.
+.env
+*.env
+*.zip
+Thumbs.db
