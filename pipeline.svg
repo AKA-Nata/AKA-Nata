@@ -1,0 +1,101 @@
+<svg width="1100" height="300" viewBox="0 0 1100 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title {
+      font: 700 20px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      fill: #f0f6fc;
+      letter-spacing: 0;
+    }
+    .sub {
+      font: 500 12px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      fill: #8b949e;
+      letter-spacing: 0;
+    }
+    .node-title {
+      font: 700 15px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      fill: #f0f6fc;
+      letter-spacing: 0;
+    }
+    .node-sub {
+      font: 500 11px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      fill: #c9d1d9;
+      letter-spacing: 0;
+    }
+    .pulse {
+      animation: pulse 2.4s ease-in-out infinite;
+      transform-origin: center;
+    }
+    .pulse-delay {
+      animation-delay: 1.2s;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.55; }
+      50% { opacity: 1; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="frame" x1="30" y1="20" x2="1070" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#238636"/>
+      <stop offset="0.45" stop-color="#1f6feb"/>
+      <stop offset="1" stop-color="#f778ba"/>
+    </linearGradient>
+    <linearGradient id="line" x1="150" y1="158" x2="950" y2="158" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7ee787"/>
+      <stop offset="0.45" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#ffa657"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="20" y="16" width="1060" height="268" rx="18" fill="#0d1117" stroke="url(#frame)"/>
+  <text class="title" x="46" y="54">integration pipeline</text>
+  <text class="sub" x="46" y="76">from operational input to validated data, automated routines and visible outcomes</text>
+  <path d="M145 158 H955" stroke="url(#line)" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+  <circle r="7" fill="#7ee787" filter="url(#glow)">
+    <animateMotion dur="5.2s" repeatCount="indefinite" path="M145 158 H955"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="5.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="6" fill="#58a6ff" filter="url(#glow)">
+    <animateMotion dur="5.2s" begin="1.7s" repeatCount="indefinite" path="M145 158 H955"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="5.2s" begin="1.7s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="5" fill="#ffa657" filter="url(#glow)">
+    <animateMotion dur="5.2s" begin="3.4s" repeatCount="indefinite" path="M145 158 H955"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="5.2s" begin="3.4s" repeatCount="indefinite"/>
+  </circle>
+  <g class="pulse">
+    <rect x="66" y="118" width="150" height="82" rx="14" fill="#161b22" stroke="#238636"/>
+    <text class="node-title" x="141" y="148" text-anchor="middle">Intake</text>
+    <text class="node-sub" x="141" y="170" text-anchor="middle">files · APIs · forms</text>
+  </g>
+  <g class="pulse pulse-delay">
+    <rect x="245" y="118" width="150" height="82" rx="14" fill="#161b22" stroke="#d29922"/>
+    <text class="node-title" x="320" y="148" text-anchor="middle">Validate</text>
+    <text class="node-sub" x="320" y="170" text-anchor="middle">rules · OCR · logs</text>
+  </g>
+  <g class="pulse">
+    <rect x="424" y="118" width="150" height="82" rx="14" fill="#161b22" stroke="#1f6feb"/>
+    <text class="node-title" x="499" y="148" text-anchor="middle">Integrate</text>
+    <text class="node-sub" x="499" y="170" text-anchor="middle">Python · ORDS</text>
+  </g>
+  <g class="pulse pulse-delay">
+    <rect x="603" y="118" width="150" height="82" rx="14" fill="#161b22" stroke="#f85149"/>
+    <text class="node-title" x="678" y="148" text-anchor="middle">Persist</text>
+    <text class="node-sub" x="678" y="170" text-anchor="middle">Oracle · SQL</text>
+  </g>
+  <g class="pulse">
+    <rect x="782" y="118" width="150" height="82" rx="14" fill="#161b22" stroke="#bc8cff"/>
+    <text class="node-title" x="857" y="148" text-anchor="middle">Visualize</text>
+    <text class="node-sub" x="857" y="170" text-anchor="middle">BI · reports</text>
+  </g>
+  <g class="pulse pulse-delay">
+    <rect x="961" y="118" width="92" height="82" rx="14" fill="#161b22" stroke="#58a6ff"/>
+    <text class="node-title" x="1007" y="148" text-anchor="middle">Support</text>
+    <text class="node-sub" x="1007" y="170" text-anchor="middle">RCA</text>
+  </g>
+  <text class="sub" x="550" y="244" text-anchor="middle">automation · traceability · data reliability · technical governance</text>
+</svg>
