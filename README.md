@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  Blumenau, Santa Catarina, Brazil · Portuguese / English · UNINTER
+  Blumenau, Santa Catarina, Brazil · Portuguese / English
 </p>
 
 <p align="center">
