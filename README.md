@@ -23,12 +23,6 @@
 </p>
 
 <p align="center">
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=AKA-Nata&label=profile%20views&color=0e75b6&style=flat-square" />
-  <img alt="GitHub followers" src="https://img.shields.io/github/followers/AKA-Nata?label=followers&style=flat-square&color=2ea043" />
-  <img alt="Focus" src="https://img.shields.io/badge/focus-integration%20automation-7ee787?style=flat-square&labelColor=0d1117" />
-</p>
-
-<p align="center">
   <img alt="Python" src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3776AB&labelColor=161b22" />
   <img alt="Oracle" src="https://img.shields.io/badge/Oracle-0d1117?style=for-the-badge&logo=oracle&logoColor=F80000&labelColor=161b22" />
   <img alt="Docker" src="https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=2496ED&labelColor=161b22" />
@@ -106,28 +100,6 @@ Some projects are internal and are described only at purpose, architecture, tech
 | **HEMOSC - Validação de Competência** | Extracts blood-component bag codes from PDFs and supports validation reports for internal workflows. | Python, PDF processing, Oracle, AutomationEdge |
 | **Consulta CNPJ / ReceitaWS x CNES x TASY** | Validates provider registration data by comparing internal records with ReceitaWS and CNES information. | Python, Oracle, Selenium, pandas, ReceitaWS API |
 | **Linha de Cuidado** | Tracks patient progress through care-line stages using dashboard cards, filters and expandable patient history. | Python, JavaScript, HTML, CSS, ORDS, Docker |
-
----
-
-## GitHub Signals
-
-<p align="center">
-  <img alt="GitHub profile details" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AKA-Nata&theme=github_dark" />
-</p>
-
-<p align="center">
-  <img height="170" alt="Repositories by language" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AKA-Nata&theme=github_dark" />
-  <img height="170" alt="Most committed languages" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AKA-Nata&theme=github_dark" />
-  <img height="170" alt="GitHub stats summary" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AKA-Nata&theme=github_dark" />
-</p>
-
-<p align="center">
-  <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=AKA-Nata&theme=github-dark-blue&hide_border=true&date_format=j%20M%5B%20Y%5D" />
-</p>
-
-<p align="center">
-  <img alt="GitHub activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=AKA-Nata&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Activity" />
-</p>
 
 ---
 
