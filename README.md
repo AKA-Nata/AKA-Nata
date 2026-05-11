@@ -107,10 +107,10 @@ Some projects are internal and are described only at purpose, architecture, tech
 
 | Period | Organization | Role | Scope |
 |---|---|---|---|
-| Mar 2026 - Present | Unimed Blumenau | Experienced / Mid-Level Integration Analyst | Oracle/PLSQL routines, ORDS integrations, Python automations, internal applications, Docker deploys, repository governance and operational support. |
-| Dec 2024 - Mar 2026 | Oliveira & Antunes Advogados | Experienced Data Analyst / Tech Lead | ETL routines, dashboards, CRM and telephony integrations, scoring models, process automation, mentoring, onboarding and code reviews. |
-| Aug 2023 - Dec 2024 | Philips | Technical Support Analyst | Tasy support, healthcare IT, incident investigation, Oracle troubleshooting, HL7/XML integrations, ServiceNow problems and technical escalation. |
-| Sep 2022 - Aug 2023 | Philips | Technical Support Intern | Initial support for healthcare systems, PL/SQL queries, data validation, incident triage and technical support foundations. |
+| Present  - Mar 2026 | Unimed Blumenau | Experienced / Mid-Level Integration Analyst | Oracle/PLSQL routines, ORDS integrations, Python automations, internal applications, Docker deploys, repository governance and operational support. |
+| Mar 2026 - Dec 2024 | Oliveira & Antunes Advogados | Experienced Data Analyst / Tech Lead | ETL routines, dashboards, CRM and telephony integrations, scoring models, process automation, mentoring, onboarding and code reviews. |
+| Dec 2024 - Aug 2023 | Philips | Technical Support Analyst | Tasy support, healthcare IT, incident investigation, Oracle troubleshooting, HL7/XML integrations, ServiceNow problems and technical escalation. |
+| Aug 2023 - Sep 2022 | Philips | Technical Support Intern | Initial support for healthcare systems, PL/SQL queries, data validation, incident triage and technical support foundations. |
 
 ---
 
