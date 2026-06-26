@@ -96,23 +96,6 @@ Git · GitHub · branch strategy · code review · environment separation · sec
 
 ---
 
-## GitHub Stats
-
-<p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="165" alt="Natã's GitHub overview" src="https://github-readme-stats.vercel.app/api?username=AKA-Nata&show_icons=true&theme=tokyonight&hide_border=true&hide=commits&hide_rank=true&custom_title=GitHub%20Overview&locale=pt-br" />
-  </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="165" alt="Natã's top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AKA-Nata&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-  </a>
-</p>
-
-<p align="center">
-  <sub>Most corporate/private work is summarized by scope below and may not appear in public GitHub cards. The stats card intentionally hides commit totals to avoid public API/rate-limit failures.</sub>
-</p>
-
----
-
 ## Featured Public Repositories
 
 | Repository | Description | Stack |

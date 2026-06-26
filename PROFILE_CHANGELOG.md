@@ -5,7 +5,7 @@
 ### Atualizado
 
 - README reescrito com posicionamento mais claro para Analista de Integração.
-- Inclusão de GitHub Readme Stats com tema `tokyonight`.
+- Removidos os cards de GitHub Readme Stats para evitar estatísticas incompletas de trabalho privado/corporativo.
 - Adição de trilhas técnicas recentes:
   - Checklist SOS Platform;
   - Provider Documentation & Technical Visit Portal;
@@ -27,9 +27,10 @@
 - Projetos internos descritos apenas por propósito, arquitetura geral, tecnologias e impacto.
 
 
-## Hotfix — GitHub Readme Stats
+## Hotfix — Remoção dos cards de GitHub Stats
 
-- Removido `include_all_commits=true` do card principal.
-- Adicionado `hide=commits&hide_rank=true` para evitar erro público `Could not fetch total commits`.
-- Mantido card de linguagens com `top-langs`.
-- Adicionada nota no README informando que trabalho corporativo/privado pode não aparecer nos cards públicos.
+- Removida a seção `GitHub Stats` do `README.md`.
+- Removidos os cards de `github-readme-stats`, incluindo overview e top languages.
+- Removidas as referências de uso do GitHub Readme Stats no guia de upload.
+- `README_SNIPPET.md` agora contém apenas o snippet do cabeçalho animado.
+- Motivo: os cards públicos não representam corretamente commits, pushes e repositórios privados/corporativos.
