@@ -100,7 +100,7 @@ Git · GitHub · branch strategy · code review · environment separation · sec
 
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="165" alt="Natã's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=AKA-Nata&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github" />
+    <img height="165" alt="Natã's GitHub overview" src="https://github-readme-stats.vercel.app/api?username=AKA-Nata&show_icons=true&theme=tokyonight&hide_border=true&hide=commits&hide_rank=true&custom_title=GitHub%20Overview&locale=pt-br" />
   </a>
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <img height="165" alt="Natã's top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AKA-Nata&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
@@ -108,7 +108,7 @@ Git · GitHub · branch strategy · code review · environment separation · sec
 </p>
 
 <p align="center">
-  <sub>Most corporate/private work is summarized by scope below and may not appear in public GitHub cards.</sub>
+  <sub>Most corporate/private work is summarized by scope below and may not appear in public GitHub cards. The stats card intentionally hides commit totals to avoid public API/rate-limit failures.</sub>
 </p>
 
 ---

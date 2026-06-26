@@ -25,3 +25,11 @@
 - Sem credenciais ou exemplos de `.env`.
 - Sem prints ou dados reais.
 - Projetos internos descritos apenas por propósito, arquitetura geral, tecnologias e impacto.
+
+
+## Hotfix — GitHub Readme Stats
+
+- Removido `include_all_commits=true` do card principal.
+- Adicionado `hide=commits&hide_rank=true` para evitar erro público `Could not fetch total commits`.
+- Mantido card de linguagens com `top-langs`.
+- Adicionada nota no README informando que trabalho corporativo/privado pode não aparecer nos cards públicos.

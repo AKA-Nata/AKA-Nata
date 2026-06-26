@@ -71,3 +71,16 @@ https://github-readme-stats.vercel.app
 ```
 
 Ela reflete principalmente dados públicos/visíveis do GitHub. Trabalho corporativo em repositórios privados normalmente não aparece nos cards, por isso o README também mantém uma seção textual com resumo seguro dos projetos internos.
+
+
+## 6. Observação sobre GitHub Readme Stats
+
+O README usa a versão robusta do card de estatísticas:
+
+```text
+&hide=commits&hide_rank=true
+```
+
+Motivo: a instância pública do `github-readme-stats.vercel.app` pode falhar ao buscar total de commits, especialmente com `include_all_commits=true`, cache, limite da API pública ou dados privados/corporativos que não aparecem no token público.
+
+Se quiser mostrar commits totais no futuro, o caminho mais estável é subir uma instância própria do GitHub Readme Stats com token GitHub configurado.
