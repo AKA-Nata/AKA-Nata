@@ -1,58 +1,38 @@
-<svg width="1100" height="96" viewBox="0 0 1100 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1100" height="108" viewBox="0 0 1100 108" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .label {
-      font: 600 13px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-      fill: #8b949e;
-      letter-spacing: 0;
-    }
-    .phrase {
-      font: 700 27px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-      fill: #f0f6fc;
-      letter-spacing: 0;
-      opacity: 0;
-    }
-    .p1 { animation: rotate 14s infinite 0s; }
-    .p2 { animation: rotate 14s infinite 3.5s; }
-    .p3 { animation: rotate 14s infinite 7s; }
-    .p4 { animation: rotate 14s infinite 10.5s; }
-    .cursor { animation: blink 0.85s steps(1) infinite; }
-    .scan { animation: scan 8s linear infinite; }
+    .label { font: 600 13px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; fill: #8b949e; }
+    .phrase { font: 700 26px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; fill: #f0f6fc; opacity: 0; }
+    .p1 { animation: rotate 18s infinite 0s; }
+    .p2 { animation: rotate 18s infinite 3.6s; }
+    .p3 { animation: rotate 18s infinite 7.2s; }
+    .p4 { animation: rotate 18s infinite 10.8s; }
+    .p5 { animation: rotate 18s infinite 14.4s; }
+    .scan { animation: scan 9s linear infinite; }
     @keyframes rotate {
       0% { opacity: 0; transform: translateY(8px); }
       6% { opacity: 1; transform: translateY(0); }
-      23% { opacity: 1; transform: translateY(0); }
-      30% { opacity: 0; transform: translateY(-8px); }
+      17% { opacity: 1; transform: translateY(0); }
+      23% { opacity: 0; transform: translateY(-8px); }
       100% { opacity: 0; transform: translateY(-8px); }
     }
-    @keyframes blink {
-      0%, 49% { opacity: 1; }
-      50%, 100% { opacity: 0; }
-    }
-    @keyframes scan {
-      0% { transform: translateX(-280px); }
-      100% { transform: translateX(1140px); }
-    }
+    @keyframes scan { 0% { transform: translateX(-280px); } 100% { transform: translateX(1140px); } }
   </style>
   <defs>
-    <linearGradient id="border" x1="40" y1="0" x2="1060" y2="96" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#238636"/>
-      <stop offset="0.48" stop-color="#1f6feb"/>
-      <stop offset="1" stop-color="#bc8cff"/>
+    <linearGradient id="border" x1="40" y1="0" x2="1060" y2="108" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#238636"/><stop offset="0.48" stop-color="#1f6feb"/><stop offset="1" stop-color="#bc8cff"/>
     </linearGradient>
     <linearGradient id="beam" x1="0" y1="0" x2="280" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#58a6ff" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#58a6ff" stop-opacity="0.24"/>
-      <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
+      <stop stop-color="#58a6ff" stop-opacity="0"/><stop offset="0.5" stop-color="#58a6ff" stop-opacity="0.25"/><stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect x="20" y="12" width="1060" height="72" rx="16" fill="#0d1117" stroke="url(#border)"/>
-  <rect class="scan" x="20" y="12" width="280" height="72" rx="16" fill="url(#beam)"/>
-  <text class="label" x="550" y="35" text-anchor="middle">current execution context</text>
+  <rect x="20" y="14" width="1060" height="80" rx="18" fill="#0d1117" stroke="url(#border)"/>
+  <rect class="scan" x="20" y="14" width="280" height="80" rx="18" fill="url(#beam)"/>
+  <text class="label" x="550" y="40" text-anchor="middle">current execution context</text>
   <g text-anchor="middle">
-    <text class="phrase p1" x="550" y="67">Integration Analyst · Python · Oracle · ORDS</text>
-    <text class="phrase p2" x="550" y="67">Automating workflows that need traceability</text>
-    <text class="phrase p3" x="550" y="67">ETL/ELT · APIs · dashboards · production support</text>
-    <text class="phrase p4" x="550" y="67">Turning operational complexity into reliable systems</text>
+    <text class="phrase p1" x="550" y="74">Systems Integration · Python · Oracle · ORDS</text>
+    <text class="phrase p2" x="550" y="74">Automation that reduces manual work and increases traceability</text>
+    <text class="phrase p3" x="550" y="74">FastAPI · React · Docker · secure internal applications</text>
+    <text class="phrase p4" x="550" y="74">ETL/ELT · clinical data mappings · operational dashboards</text>
+    <text class="phrase p5" x="550" y="74">Repository governance · documentation · production support</text>
   </g>
-  <rect class="cursor" x="1010" y="46" width="10" height="29" rx="2" fill="#7ee787"/>
 </svg>
